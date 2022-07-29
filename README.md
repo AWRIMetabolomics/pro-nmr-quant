@@ -3,17 +3,13 @@
 ### How This Repo Works
 
 There are three steps to the workflow:
-1. Convert NMR data to `csv` with `nmr_utils_read_single.R`. 
+1. Convert NMR data to `csv` with `nmr_utils_read_single.R`. This step has already been executed, and the resulting csv files are in the `/data` folder in this repo. 
 2. `workbook-fit.ipynb` - Fit a straight line of best fit.
 3. `workbook-predict.ipynb`- Predict new test sample(s). 
 
 Other files:
 * `my_utils.py` - a text file of utility functions used by `workbook-fit.ipynb` and `workbook-predict.ipynb`
-* 
-
-* Get the data from TODO
-
-* If the data is in Bruker's FID format, you'll need to convert it to `csv` using `nmr_utils_read_single.R`. 
+* `test_my_utils.py` - test file of unit tests. 
 
 ### Installating Dependencies
 
@@ -35,6 +31,10 @@ If you use this code, please cite:
 ```
 TODO
 ```
+
+### Unit Testing
+
+
 
 ### Licensing
 
